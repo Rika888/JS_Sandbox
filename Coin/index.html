@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Coin</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+	
+</head>
+<body>
+	<div class="balance">
+		<div id="look">1</div>
+	</div>
+	<div class="info">
+		<div id="my_boost">0</div>
+	</div>
+	<div class="buy">
+		<h1>Магазин</h1>
+
+		<div class="slot">
+			<div class="left flextop">
+				<div class="box">+0.000000001 в сек.</div>
+			</div>
+			<div class="right">
+				<input type="button" value="Купить" onclick="buy(1);" class="btn_buy">
+				<div class="price">
+					<div id="price1" class="price_look">0.000000100</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slot">
+			<div class="left flextop">
+				<div class="box">+0.000000010 в сек.</div>
+			</div>
+			<div class="right">
+				<input type="button" value="Купить" onclick="buy(2);" class="btn_buy">
+				<div class="price">
+					<div id="price2" class="price_look">0.000001000</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slot">
+			<div class="left flextop">
+				<div class="box">+0.000000050 в сек.</div>
+			</div>
+			<div class="right">
+				<input type="button" value="Купить" onclick="buy(3);" class="btn_buy">
+				<div class="price">
+					<div id="price3" class="price_look">0.000005000</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slot">
+			<div class="left flextop">
+				<div class="box">+0.000000100 в сек.</div>
+			</div>
+			<div class="right">
+				<input type="button" value="Купить" onclick="buy(4);" class="btn_buy">
+				<div class="price">
+					<div id="price4" class="price_look">0.000010000</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slot">
+			<div class="left flextop">
+				<div class="box">+0.000000500 в сек.</div>
+			</div>
+			<div class="right">
+				<input type="button" value="Купить" onclick="buy(5);" class="btn_buy">
+				<div class="price">
+					<div id="price5" class="price_look">0.000050000</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/generate_new_coin.js"></script>
+	<script src="js/boost.js"></script>
+</body>
+</html>
